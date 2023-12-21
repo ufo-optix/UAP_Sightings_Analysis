@@ -1,0 +1,6 @@
+data/*
+out/*
+dump
+**__pycache__/
+.venv
+.vscode
