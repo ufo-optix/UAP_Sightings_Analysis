@@ -13,8 +13,9 @@ I use docker to download and dump the UPDB database. The database is large and i
 final data will be located at `./out/uadb.csv`
 
 1. `mkdir out && mkdir data`
-2. `make build`
-3. `make dump`
+2. Change the Makefile `dump` command by removing my mountpoint (`C:\Users\faust...`) to your own.
+3. `make build`
+4. `make dump`
 
 
 ### Analyze the Data
